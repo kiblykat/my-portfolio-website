@@ -4,7 +4,7 @@ import "./Header.css";
 export default function Header() {
   return (
     <nav id="desktop-nav">
-      <div className="logo">John Doe</div>
+      <div className="logo">Izzat Fadzlon</div>
       <div>
         <ul className="nav-links">
           <li>
