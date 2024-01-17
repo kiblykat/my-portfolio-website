@@ -1,5 +1,7 @@
 import React from "react";
 import MyImage from "../assets/me-crop.jpg";
+import LinkedIn from "../assets/linkedin.png";
+import Github from "../assets/github.png";
 import "./Profile.css";
 
 export default function Profile() {
@@ -27,18 +29,12 @@ export default function Profile() {
           </button>
         </div>
         <div id="socials-container">
-          <img
-            src="./assets/linkedin.png"
-            alt="My LinkedIn profile"
-            className="icon"
-            onclick="location.href='https://linkedin.com/'"
-          />
-          <img
-            src="./assets/github.png"
-            alt="My Github profile"
-            className="icon"
-            onclick="location.href='https://github.com/'"
-          />
+          <a href="https://www.linkedin.com/in/izzat-fadzlon-75615b171/">
+            <img src={LinkedIn} alt="My LinkedIn profile" className="icon" />
+          </a>
+          <a href="https://github.com/kiblykat">
+            <img src={Github} alt="My Github profile" className="icon" />
+          </a>
         </div>
       </div>
     </section>
