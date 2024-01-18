@@ -1,13 +1,16 @@
-/* ABOUT SECTION */
-
 #about {
+  height: 100vh;
   position: relative;
 }
 
 .about-containers {
   gap: 2rem;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
+  margin: 2rem;
+}
+
+.text-container {
+  text-align: center;
+  margin: 2rem 8rem;
 }
 
 .about-details-container {
@@ -26,8 +29,8 @@
 
 .arrow {
   position: absolute;
-  right: -5rem;
-  bottom: 2.5rem;
+  right: 0%;
+  bottom: 0rem;
 }
 
 .details-container {
