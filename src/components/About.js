@@ -1,9 +1,21 @@
 import React from "react";
 import "./About.css";
 import Card from "./Card";
-import arrowImg from "../assets/arrow.png";
-
 import { stockLogo } from "../assets/images";
+
+const skillSet = {
+  c: false,
+  cpp: false,
+  blender: false,
+  js: false,
+  react: false,
+};
+//Update skills here
+const NTUSkills = { ...skillSet, cpp: true, c: true };
+const SCTPSkills = { ...skillSet, js: true, react: true };
+const contiSkills = { ...skillSet, cpp: true, blender: true };
+
+console.log(NTUSkills);
 
 export default function About() {
   return (
@@ -19,19 +31,11 @@ export default function About() {
                 src={stockLogo.edImg}
                 alt="Education icon"
                 className="icon"
-                header="NTU"
+                header="NTU Mech. Eng. (Robotics and Mechatronics)"
                 isCurrent={false}
-                line1=" Mechanical Eng Robotics (Distinction)"
-                line2="2018-2022"
-              />
-              <Card
-                src={stockLogo.edImg}
-                alt="Education icon"
-                className="icon"
-                header="NTU"
-                isCurrent={false}
-                line1=" Mechanical Eng Robotics (Distinction)"
-                line2="2018-2022"
+                line1=" Grade: Distinction"
+                line2="Aug 2018-Aug 2022"
+                skills={NTUSkills}
               />
               <Card
                 src={stockLogo.edImg}
@@ -40,17 +44,19 @@ export default function About() {
                 header="NTU SCTP (Software Engineering)"
                 isCurrent={true}
                 line1=""
-                line2="2022-Current"
+                line2="Nov 2023 - May 2024"
+                skills={SCTPSkills}
               />
 
               <Card
                 src={stockLogo.workImg}
                 alt="Experience icon"
                 className="icon"
-                header="Continental Automotive"
+                header="Continental Automotive (SWE)"
                 isCurrent={true}
                 line1="2 years"
-                line2="2022-Current"
+                line2="Jul 2022 - Current"
+                skills={contiSkills}
               />
             </div>
             <div class="text-container">
@@ -75,7 +81,7 @@ export default function About() {
           </div>
         </div>
         <img
-          src={arrowImg}
+          src={stockLogo.arrowImg}
           alt="Arrow icon"
           class="icon arrow"
           onclick="location.href='./#experience'"

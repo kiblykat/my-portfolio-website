@@ -1,6 +1,6 @@
 import React from "react";
 import MyImage from "../assets/me-crop.jpg";
-import Resume from "../assets/IzzatResume160124.pdf";
+import Resume from "../assets/resume/IzzatResume160124.pdf";
 import "./Profile.css";
 import { stockLogo } from "../assets/images";
 
