@@ -1,9 +1,8 @@
 import React from "react";
 import MyImage from "../assets/me-crop.jpg";
-import LinkedIn from "../assets/linkedin.png";
-import Github from "../assets/github.png";
 import Resume from "../assets/IzzatResume160124.pdf";
 import "./Profile.css";
+import { stockLogo } from "../assets/images";
 
 export default function Profile() {
   return (
@@ -22,12 +21,12 @@ export default function Profile() {
           >
             Download CV
           </button>
-          <button
+          {/* <button
             className="btn btn-color-1"
             onClick="location.href='./#contact'"
           >
             Contact Info
-          </button>
+          </button> */}
         </div>
         <div id="socials-container">
           <a
@@ -35,14 +34,22 @@ export default function Profile() {
             target="_blank"
             rel="noreferrer"
           >
-            <img src={LinkedIn} alt="My LinkedIn profile" className="icon" />
+            <img
+              src={stockLogo.LinkedIn}
+              alt="My LinkedIn profile"
+              className="icon"
+            />
           </a>
           <a
             href="https://github.com/kiblykat"
             target="_blank"
             rel="noreferrer"
           >
-            <img src={Github} alt="My Github profile" className="icon" />
+            <img
+              src={stockLogo.Github}
+              alt="My Github profile"
+              className="icon"
+            />
           </a>
         </div>
       </div>

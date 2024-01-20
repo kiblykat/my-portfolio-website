@@ -66,9 +66,9 @@
   padding: 1rem;
   width: 8rem;
   border-radius: 2rem;
+  cursor: pointer;
 }
 
 .icon {
   height: 2rem;
-  cursor: pointer;
 }

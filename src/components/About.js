@@ -1,35 +1,56 @@
 import React from "react";
 import "./About.css";
 import Card from "./Card";
-import expImg from "../assets/experience.png";
-import edImg from "../assets/education.png";
 import arrowImg from "../assets/arrow.png";
+
+import { stockLogo } from "../assets/images";
 
 export default function About() {
   return (
     <div>
       {" "}
       <section id="about">
-        <p class="section__text__p1">Get To Know More</p>
+        <p class="section__text__p1"></p>
         <h1 class="title">About Me</h1>
         <div class="section-container">
           <div class="about-details-container">
             <div class="about-containers">
               <Card
-                src={expImg}
-                alt="Experience icon"
-                className="icon"
-                header="Experience"
-                line1="2 years"
-                line2="Software Development"
-              />
-              <Card
-                src={edImg}
+                src={stockLogo.edImg}
                 alt="Education icon"
                 className="icon"
-                header="Education"
-                line1="NTU Mechanical Eng Robotics (Distinction)"
-                line2="NTU SCTP Software Engineering"
+                header="NTU"
+                isCurrent={false}
+                line1=" Mechanical Eng Robotics (Distinction)"
+                line2="2018-2022"
+              />
+              <Card
+                src={stockLogo.edImg}
+                alt="Education icon"
+                className="icon"
+                header="NTU"
+                isCurrent={false}
+                line1=" Mechanical Eng Robotics (Distinction)"
+                line2="2018-2022"
+              />
+              <Card
+                src={stockLogo.edImg}
+                alt="Education icon"
+                className="icon"
+                header="NTU SCTP (Software Engineering)"
+                isCurrent={true}
+                line1=""
+                line2="2022-Current"
+              />
+
+              <Card
+                src={stockLogo.workImg}
+                alt="Experience icon"
+                className="icon"
+                header="Continental Automotive"
+                isCurrent={true}
+                line1="2 years"
+                line2="2022-Current"
               />
             </div>
             <div class="text-container">
