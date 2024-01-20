@@ -13,6 +13,8 @@ import cImg from "./skills/c.png";
 import cppImg from "./skills/cpp.png";
 import jsImg from "./skills/js.png";
 import reactImg from "./skills/react.png";
+import htmlImg from "./skills/html.png";
+import cssImg from "./skills/css.png";
 
 export const stockLogo = {
   expImg,
@@ -24,4 +26,12 @@ export const stockLogo = {
   arrowImg,
 };
 
-export const skillsLogo = { blenderImg, cImg, cppImg, jsImg, reactImg };
+export const skillsLogo = {
+  htmlImg,
+  cssImg,
+  blenderImg,
+  cImg,
+  cppImg,
+  jsImg,
+  reactImg,
+};

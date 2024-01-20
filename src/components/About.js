@@ -10,17 +10,23 @@ const skillSet = {
   js: false,
   react: false,
 };
+
 //Update skills here
 const NTUSkills = { ...skillSet, cpp: true, c: true };
-const SCTPSkills = { ...skillSet, js: true, react: true };
-const contiSkills = { ...skillSet, cpp: true, blender: true };
+const SCTPSkills = {
+  ...skillSet,
+  html: true,
+  css: true,
+  js: true,
+  react: true,
+};
+const contiSkills = { ...skillSet, cpp: true, blender: true, c: true };
 
 console.log(NTUSkills);
 
 export default function About() {
   return (
     <div>
-      {" "}
       <section id="about">
         <p class="section__text__p1"></p>
         <h1 class="title">About Me</h1>
