@@ -6,6 +6,7 @@
 .about-containers {
   gap: 2rem;
   margin: 2rem;
+  display: flex;
 }
 
 .text-container {
@@ -16,11 +17,6 @@
 .about-details-container {
   justify-content: center;
   flex-direction: column;
-}
-
-.about-containers,
-.about-details-container {
-  display: flex;
 }
 
 .about-pic {
@@ -43,13 +39,25 @@
   text-align: center;
 }
 
-.section-container {
-  gap: 4rem;
-  height: 80%;
-}
+@media screen and (max-width: 1500px) {
+  .about-containers {
+    display: grid;
+    grid-template-columns: 350px 350px;
+    grid-template-columns: 350px 350px;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin: 2rem;
+  }
 
-.section__pic-container {
-  height: 400px;
-  width: 400px;
-  margin: auto 0;
+  .details-container {
+    height: 100%;
+    padding: 1.5rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+  }
 }

@@ -6,7 +6,6 @@ import OutputSkills from "./OutputSkills";
 export default function Card({
   src,
   alt,
-  className,
   line1,
   line2,
   isCurrent,
@@ -15,7 +14,7 @@ export default function Card({
 }) {
   return (
     <div className="details-container">
-      <img src={src} alt={alt} className={className} />
+      <img src={src} alt={alt} className="icon" />
       <h3 className={styles.textLoadingContainer}>
         {header}
         {isCurrent ? (

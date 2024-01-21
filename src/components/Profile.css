@@ -4,12 +4,11 @@
   border-radius: 50%;
   overflow: hidden;
   object-fit: cover;
-  width: 80%;
-  height: 80%;
+  width: 320px;
+  height: 320px;
 }
 
 .section__pic-container {
-  display: flex;
   height: 400px;
   width: 400px;
   margin: auto 0;
