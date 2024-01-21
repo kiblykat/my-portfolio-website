@@ -1,0 +1,7 @@
+.projectImg {
+  width: 300px;
+}
+
+.details-container > * {
+  margin: 10px;
+}

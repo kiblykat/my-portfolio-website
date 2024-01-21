@@ -1,5 +1,7 @@
 import React from "react";
+import ProjectsCard from "./ProjectsCard";
 import styles from "./Projects.module.css";
+import parkWhereLogo from "../assets/stock/parkWhereLogo.png";
 
 export default function Projects() {
   return (
@@ -8,78 +10,15 @@ export default function Projects() {
       <h1 class="title">Projects</h1>
       <div class="experience-details-container">
         <div class="about-containers">
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/project-1.png"
-                alt="Project 1"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Project One</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Live Demo
-              </button>
-            </div>
-          </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/project-2.png"
-                alt="Project 2"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Project Two</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Live Demo
-              </button>
-            </div>
-          </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/project-3.png"
-                alt="Project 3"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Project Three</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Live Demo
-              </button>
-            </div>
-          </div>
+          <ProjectsCard
+            imgSrc={parkWhereLogo}
+            projectName="parkWhere"
+            desc="a barebones application retrieves real-time API for parking lots from data.gov, integrated with Google Maps"
+            githubSrc="https://github.com/kiblykat/ParkWhere"
+            demoSrc="https://parkwhere.netlify.app/"
+          />
+          <ProjectsCard imgSrc="" projectName="" githubSrc="" demoSrc="" />
+          <ProjectsCard imgSrc="" projectName="" githubSrc="" demoSrc="" />
         </div>
       </div>
       <img
