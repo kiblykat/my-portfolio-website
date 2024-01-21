@@ -1,9 +1,9 @@
 import React from "react";
 import { stockLogo } from "../assets/images";
-import styles from "./Card.module.css";
+import styles from "./AboutCard.module.css";
 import OutputSkills from "./OutputSkills";
 
-export default function Card({
+export default function AboutCard({
   src,
   alt,
   line1,

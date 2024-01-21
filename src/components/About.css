@@ -51,6 +51,7 @@
   }
 
   .details-container {
+    /* need height to keep height of grid to remain same */
     height: 100%;
     padding: 1.5rem;
     flex: 1;

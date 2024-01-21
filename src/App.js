@@ -8,6 +8,7 @@ function App() {
       <Header />
       <Profile />
       <About />
+      <Projects />
     </>
   );
 }

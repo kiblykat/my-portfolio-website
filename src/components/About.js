@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import Card from "./Card";
+import AboutCard from "./AboutCard";
 import { stockLogo } from "../assets/images";
 
 const skillSet = {
@@ -29,10 +29,10 @@ export default function About() {
   return (
     <section id="about">
       <p class="section__text__p1"></p>
-      <h1 class="title">About Me</h1>{" "}
+      <h1 class="title">About Me</h1>
       <div class="about-details-container">
         <div class="about-containers">
-          <Card
+          <AboutCard
             src={stockLogo.edImg}
             alt="Education icon"
             header="NTU Mech. Eng. (Robotics and Mechatronics)"
@@ -41,7 +41,7 @@ export default function About() {
             line2="Aug 2018-Aug 2022"
             skills={NTUSkills}
           />
-          <Card
+          <AboutCard
             src={stockLogo.workImg}
             alt="Experience icon"
             header="Transforma Robotics (SWE)"
@@ -50,7 +50,7 @@ export default function About() {
             line2="May 2021 - Sept 2021"
             skills={transformaSkills}
           />
-          <Card
+          <AboutCard
             src={stockLogo.edImg}
             alt="Education icon"
             header="NTU SCTP (Software Engineering)"
@@ -59,7 +59,7 @@ export default function About() {
             line2="Nov 2023 - May 2024"
             skills={SCTPSkills}
           />
-          <Card
+          <AboutCard
             src={stockLogo.workImg}
             alt="Experience icon"
             header="Continental Automotive (SWE)"
