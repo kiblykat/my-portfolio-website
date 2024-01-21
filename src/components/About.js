@@ -9,6 +9,7 @@ const skillSet = {
   blender: false,
   js: false,
   react: false,
+  ros: false,
 };
 
 //Update skills here
@@ -21,8 +22,7 @@ const SCTPSkills = {
   react: true,
 };
 const contiSkills = { ...skillSet, cpp: true, blender: true, c: true };
-
-console.log(NTUSkills);
+const transformaSkills = { ...skillSet, cpp: true, c: true, ros: true };
 
 export default function About() {
   return (
@@ -44,6 +44,16 @@ export default function About() {
                 skills={NTUSkills}
               />
               <Card
+                src={stockLogo.workImg}
+                alt="Experience icon"
+                className="icon"
+                header="Transforma Robotics (SWE)"
+                isCurrent={false}
+                line1=""
+                line2="May 2021 - Sept 2021"
+                skills={transformaSkills}
+              />
+              <Card
                 src={stockLogo.edImg}
                 alt="Education icon"
                 className="icon"
@@ -53,7 +63,6 @@ export default function About() {
                 line2="Nov 2023 - May 2024"
                 skills={SCTPSkills}
               />
-
               <Card
                 src={stockLogo.workImg}
                 alt="Experience icon"

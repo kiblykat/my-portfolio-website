@@ -1,4 +1,9 @@
-.logo {
+.logoFixWidth {
+  width: 50px;
+  margin: 10px;
+}
+
+.logoFixHeight {
   height: 50px;
   margin: 10px;
 }

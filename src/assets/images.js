@@ -15,16 +15,7 @@ import jsImg from "./skills/js.png";
 import reactImg from "./skills/react.png";
 import htmlImg from "./skills/html.png";
 import cssImg from "./skills/css.png";
-
-export const stockLogo = {
-  expImg,
-  edImg,
-  workImg,
-  Github,
-  LinkedIn,
-  blackDot,
-  arrowImg,
-};
+import rosImg from "./skills/ros.png";
 
 export const skillsLogo = {
   htmlImg,
@@ -34,4 +25,15 @@ export const skillsLogo = {
   cppImg,
   jsImg,
   reactImg,
+  rosImg,
+};
+
+export const stockLogo = {
+  expImg,
+  edImg,
+  workImg,
+  Github,
+  LinkedIn,
+  blackDot,
+  arrowImg,
 };
