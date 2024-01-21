@@ -19,20 +19,6 @@ export default function OutputSkills({ skills }) {
           alt="skill"
         />
       ) : null}
-      {skills.blender ? (
-        <img
-          className={styles.logoFixHeight}
-          src={skillsLogo.blenderImg}
-          alt="skill"
-        />
-      ) : null}
-      {skills.ros ? (
-        <img
-          className={styles.logoFixWidth}
-          src={skillsLogo.rosImg}
-          alt="skill"
-        />
-      ) : null}
       {skills.c ? (
         <img
           className={styles.logoFixHeight}
@@ -58,6 +44,27 @@ export default function OutputSkills({ skills }) {
         <img
           className={styles.logoFixHeight}
           src={skillsLogo.reactImg}
+          alt="skill"
+        />
+      ) : null}
+      {skills.solidworks ? (
+        <img
+          className={styles.logoFixWidth}
+          src={skillsLogo.solidworksImg}
+          alt="skill"
+        />
+      ) : null}
+      {skills.ros ? (
+        <img
+          className={styles.logoFixWidth}
+          src={skillsLogo.rosImg}
+          alt="skill"
+        />
+      ) : null}
+      {skills.blender ? (
+        <img
+          className={styles.logoFixHeight}
+          src={skillsLogo.blenderImg}
           alt="skill"
         />
       ) : null}

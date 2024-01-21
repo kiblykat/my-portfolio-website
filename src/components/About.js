@@ -10,10 +10,11 @@ const skillSet = {
   js: false,
   react: false,
   ros: false,
+  solidworks: false,
 };
 
 //Update skills here
-const NTUSkills = { ...skillSet, cpp: true, c: true };
+const NTUSkills = { ...skillSet, cpp: true, c: true, solidworks: true };
 const SCTPSkills = {
   ...skillSet,
   html: true,
@@ -77,20 +78,17 @@ export default function About() {
             <div class="text-container">
               <p>
                 Having a background in Mechanical Engineering, my passion lies
-                in creating practical solutions to real world problems. Although
-                I have not chosen to pursue this field, I am still a problem
-                solver at heart. As a self-directed learner, I am actively
-                looking for avenues to improve myself in terms of hard skills
-                needed within the software development industry.
+                in creating practical solutions to real world problems. As a
+                self-directed learner, I am actively looking for avenues to
+                improve myself in terms of hard skills needed within the
+                software development industry.
                 <br />
                 <br />
                 <hr />
                 <br />I enjoy creating genuine connections with people,
                 regardless of age or background. I strongly feel there is always
                 something you can learn from someone else as no two life
-                experiences are identical. However, while usually associated as
-                being amiable and having a jovial personality, there is no
-                compromise when it comes to serious work.
+                experiences are identical.
               </p>
             </div>
           </div>

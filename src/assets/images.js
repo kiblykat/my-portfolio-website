@@ -16,6 +16,7 @@ import reactImg from "./skills/react.png";
 import htmlImg from "./skills/html.png";
 import cssImg from "./skills/css.png";
 import rosImg from "./skills/ros.png";
+import solidworksImg from "./skills/solidworks.png";
 
 export const skillsLogo = {
   htmlImg,
@@ -26,6 +27,7 @@ export const skillsLogo = {
   jsImg,
   reactImg,
   rosImg,
+  solidworksImg,
 };
 
 export const stockLogo = {
