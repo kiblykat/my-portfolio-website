@@ -11,9 +11,10 @@ const skillSet = {
   react: false,
   ros: false,
   solidworks: false,
+  googletest: false,
 };
 
-//Update skills here
+//UPDATE SKILLS HERE
 const NTUSkills = { ...skillSet, cpp: true, c: true, solidworks: true };
 const SCTPSkills = {
   ...skillSet,
@@ -21,8 +22,15 @@ const SCTPSkills = {
   css: true,
   js: true,
   react: true,
+  java: true,
 };
-const contiSkills = { ...skillSet, cpp: true, blender: true, c: true };
+const contiSkills = {
+  ...skillSet,
+  cpp: true,
+  blender: true,
+  c: true,
+  googletest: true,
+};
 const transformaSkills = { ...skillSet, cpp: true, c: true, ros: true };
 
 export default function About() {

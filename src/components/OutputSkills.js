@@ -19,6 +19,27 @@ export default function OutputSkills({ skills }) {
           alt="skill"
         />
       ) : null}
+      {skills.js ? (
+        <img
+          className={styles.logoFixHeight}
+          src={skillsLogo.jsImg}
+          alt="skill"
+        />
+      ) : null}
+      {skills.react ? (
+        <img
+          className={styles.logoFixHeight}
+          src={skillsLogo.reactImg}
+          alt="skill"
+        />
+      ) : null}
+      {skills.java ? (
+        <img
+          className={styles.logoFixHeight}
+          src={skillsLogo.javaImg}
+          alt="skill"
+        />
+      ) : null}
       {skills.c ? (
         <img
           className={styles.logoFixHeight}
@@ -33,17 +54,10 @@ export default function OutputSkills({ skills }) {
           alt="skill"
         />
       ) : null}
-      {skills.js ? (
+      {skills.googletest ? (
         <img
           className={styles.logoFixHeight}
-          src={skillsLogo.jsImg}
-          alt="skill"
-        />
-      ) : null}
-      {skills.react ? (
-        <img
-          className={styles.logoFixHeight}
-          src={skillsLogo.reactImg}
+          src={skillsLogo.googletestImg}
           alt="skill"
         />
       ) : null}
