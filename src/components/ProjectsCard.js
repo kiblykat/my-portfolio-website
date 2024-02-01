@@ -9,18 +9,18 @@ export default function ProjectsCard({
   desc,
 }) {
   return (
-    <div class="details-container">
-      <div class="article-container">
-        <img src={imgSrc} alt="ProjectImg" class={styles.projectImg} />
+    <div className="details-container">
+      <div className="article-container">
+        <img src={imgSrc} alt="ProjectImg" className={styles.projectImg} />
       </div>
-      <h2 class="experience-sub-title project-title">{projectName}</h2>
+      <h2 className="experience-sub-title project-title">{projectName}</h2>
       <p>{desc}</p>
-      <div class="btn-container">
+      <div className="btn-container">
         <a href={githubSrc}>
-          <button class="btn btn-color-2 project-btn">Github</button>
+          <button className="btn btn-color-2 project-btn">Github</button>
         </a>
         <a href={demoSrc}>
-          <button class="btn btn-color-2 project-btn">Live Demo</button>
+          <button className="btn btn-color-2 project-btn">Live Demo</button>
         </a>
       </div>
     </div>

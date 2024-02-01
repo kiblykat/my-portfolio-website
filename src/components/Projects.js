@@ -6,10 +6,10 @@ import parkWhereLogo from "../assets/stock/parkWhereLogo.png";
 export default function Projects() {
   return (
     <section id="projects">
-      <p class="section__text__p1">Browse My Recent</p>
-      <h1 class="title">Projects</h1>
-      <div class="experience-details-container">
-        <div class="about-containers">
+      <p className="section__text__p1">Browse My Recent</p>
+      <h1 className="title">Projects</h1>
+      <div className="experience-details-container">
+        <div className="about-containers">
           <ProjectsCard
             imgSrc={parkWhereLogo}
             projectName="parkWhere"
@@ -24,7 +24,7 @@ export default function Projects() {
       <img
         src="./assets/arrow.png"
         alt="Arrow icon"
-        class="icon arrow"
+        className="icon arrow"
         onclick="location.href='./#contact'"
       />
     </section>

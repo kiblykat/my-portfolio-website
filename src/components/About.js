@@ -36,10 +36,10 @@ const transformaSkills = { ...skillSet, cpp: true, c: true, ros: true };
 export default function About() {
   return (
     <section id="about">
-      <p class="section__text__p1"></p>
-      <h1 class="title">About Me</h1>
-      <div class="about-details-container">
-        <div class="about-containers">
+      <p className="section__text__p1"></p>
+      <h1 className="title">About Me</h1>
+      <div className="about-details-container">
+        <div className="about-containers">
           <AboutCard
             src={stockLogo.edImg}
             alt="Education icon"
@@ -77,7 +77,7 @@ export default function About() {
             skills={contiSkills}
           />
         </div>
-        <div class="text-container">
+        <div className="text-container">
           <p>
             Having a background in Mechanical Engineering, my passion lies in
             creating practical solutions to real world problems. As a
@@ -97,7 +97,7 @@ export default function About() {
       <img
         src={stockLogo.arrowImg}
         alt="Arrow icon"
-        class="icon arrow"
+        className="icon arrow"
         onclick="location.href='./#experience'"
       />
     </section>
