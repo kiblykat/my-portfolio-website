@@ -12,7 +12,7 @@ a:hover {
   text-decoration-color: rgb(181, 181, 181);
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 801px) {
   nav,
   .nav-links {
     display: flex;
@@ -90,7 +90,7 @@ a:hover {
 }
 
 /* HAMBURGER MENU */
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 800px) {
   #desktop-nav {
     display: none;
   }
@@ -134,6 +134,10 @@ a:hover {
 
   .menu-links {
     right: 0;
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    padding: 5px;
   }
 
   .menu-links li {

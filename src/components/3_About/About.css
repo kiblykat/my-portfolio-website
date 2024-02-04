@@ -47,11 +47,14 @@
   .about-containers {
     display: grid;
     grid-template-columns: 350px 350px;
-    grid-template-columns: 350px 350px;
     align-items: center;
     justify-content: center;
     gap: 2rem;
     margin: 2rem;
+  }
+
+  #about {
+    height: 100%;
   }
 
   .details-container {
@@ -64,5 +67,15 @@
     border: rgb(53, 53, 53) 0.1rem solid;
     border-color: rgb(163, 163, 163);
     text-align: center;
+  }
+  @media screen and (max-width: 800px) {
+    .about-containers {
+      display: grid;
+      grid-template-columns: 350px;
+      align-items: center;
+      justify-content: center;
+      gap: 2rem;
+      margin: 2rem;
+    }
   }
 }

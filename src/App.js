@@ -1,7 +1,7 @@
-import About from "./components/About";
-import Header from "./components/Header";
-import Profile from "./components/Profile";
-import Projects from "./components/Projects";
+import About from "./components/3_About/About";
+import Header from "./components/1_Header/Header";
+import Profile from "./components/2_Profile/Profile";
+import Projects from "./components/4_Projects/Projects";
 function App() {
   return (
     <>

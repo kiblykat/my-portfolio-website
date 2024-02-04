@@ -1,7 +1,7 @@
 import React from "react";
-import { stockLogo } from "../assets/images";
+import { stockLogo } from "../../assets/images";
 import styles from "./AboutCard.module.css";
-import OutputSkills from "./OutputSkills";
+import OutputSkills from "./AboutOutputSkills";
 
 export default function AboutCard({
   src,
