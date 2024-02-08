@@ -1,8 +1,8 @@
 import React from "react";
 import ProjectsCard from "./ProjectsCard";
-import styles from "./Projects.module.css";
 import parkWhereLogo from "../../assets/stock/parkWhereLogo.png";
 import cardyBotLogo from "../../assets/stock/cardyBotLogo.png";
+import { stockLogo } from "../../assets/images";
 
 export default function Projects() {
   return (
@@ -25,17 +25,17 @@ export default function Projects() {
               projectName="steamBot"
               githubSrc="https://github.com/kiblykat/steamBot"
               desc="A steam bot that automatically manages 
-            game metal within my backpack and auto-trades 
+            game currency within my backpack and auto-trades 
             with other steam users based on a pricelist pre-defined. The bot is
             configured to trade Counter-Strike cases, Steam Cards, Game 
             Backgrounds and emoticons at designated prices."
               demoSrc="https://steamcommunity.com/id/CardyBot/"
             />
-            <ProjectsCard imgSrc="" projectName="" githubSrc="" demoSrc="" />
+            {/* <ProjectsCard imgSrc="" projectName="" githubSrc="" demoSrc="" /> */}
           </div>
         </div>
         <img
-          src="./assets/arrow.png"
+          src={stockLogo.arrowImg}
           alt="Arrow icon"
           className="icon arrow"
           onclick="location.href='./#contact'"
