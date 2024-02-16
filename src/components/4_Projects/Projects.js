@@ -34,12 +34,13 @@ export default function Projects() {
             {/* <ProjectsCard imgSrc="" projectName="" githubSrc="" demoSrc="" /> */}
           </div>
         </div>
+        <a href="#about">
         <img
           src={stockLogo.arrowImg}
           alt="Arrow icon"
           className="icon arrow"
-          onclick="location.href='./#contact'"
-        />
+        /> 
+        </a>
       </section>
     </div>
   );
