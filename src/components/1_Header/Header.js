@@ -1,4 +1,3 @@
-import { FaBars, FaTimes } from "react-icons";
 import React, { useState } from "react";
 import "./Header.css";
 
@@ -11,9 +10,6 @@ export default function Header() {
         <div className="logo"></div>
         <div>
           <ul className="nav-links">
-            <li>
-              <a href="#about">About</a>
-            </li>
             <li>
               <a href="#experience">Experience</a>
             </li>
@@ -41,9 +37,6 @@ export default function Header() {
           {isBurger ? (
             <div className="menu-links">
               <ul>
-                <li>
-                  <a href="#about">About</a>
-                </li>
                 <li>
                   <a href="#experience">Experience</a>
                 </li>

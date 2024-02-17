@@ -54,6 +54,16 @@ export default function Profile() {
             </a>
           </div>
         </div>
+        <a
+          href="#experience"
+          style={{ position: "absolute", right: "0%", bottom: "0rem" }}
+        >
+          <img
+            src={stockLogo.arrowImg}
+            alt="Arrow icon"
+            className="icon arrow"
+          />
+        </a>
       </section>
     </div>
   );

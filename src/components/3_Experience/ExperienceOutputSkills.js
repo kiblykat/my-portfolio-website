@@ -1,6 +1,6 @@
 import React from "react";
 import { skillsLogo } from "../../assets/images";
-import styles from "./AboutOutputSkills.module.css";
+import styles from "./ExperienceOutputSkills.module.css";
 
 export default function OutputSkills({ skills }) {
   return (

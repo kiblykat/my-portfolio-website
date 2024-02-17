@@ -1,9 +1,9 @@
 import React from "react";
 import { stockLogo } from "../../assets/images";
-import styles from "./AboutCard.module.css";
-import OutputSkills from "./AboutOutputSkills";
+import styles from "./ExperienceCard.module.css";
+import OutputSkills from "./ExperienceOutputSkills";
 
-export default function AboutCard({
+export default function ExperienceCard({
   src,
   alt,
   line1,

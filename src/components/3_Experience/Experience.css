@@ -1,5 +1,6 @@
-#about {
-  height: 100vh;
+#experience {
+  gap: 5rem;
+  min-height: 100vh;
   position: relative;
 }
 
@@ -21,12 +22,6 @@
 
 .about-pic {
   border-radius: 2rem;
-}
-
-.arrow {
-  position: absolute;
-  right: 0%;
-  bottom: 0rem;
 }
 
 .details-container {
