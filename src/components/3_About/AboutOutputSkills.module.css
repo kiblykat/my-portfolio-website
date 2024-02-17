@@ -13,3 +13,12 @@
   align-items: center;
   justify-content: center;
 }
+
+.logoContainer > *{
+  transition: .2s ease;
+}
+
+
+.logoContainer > *:hover{
+  transform: translateY(-3px);
+}

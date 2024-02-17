@@ -46,7 +46,7 @@ export default function About() {
               alt="Education icon"
               header="NTU Mech. Eng. (Robotics and Mechatronics)"
               isCurrent={false}
-              line1=" Grade: Distinction"
+              line1="Grade: Distinction"
               line2="Aug 2018-Aug 2022"
               skills={NTUSkills}
             />
@@ -55,7 +55,7 @@ export default function About() {
               alt="Experience icon"
               header="Transforma Robotics (SWE)"
               isCurrent={false}
-              line1=""
+              line1=" "
               line2="May 2021 - Sept 2021"
               skills={transformaSkills}
             />
@@ -64,7 +64,7 @@ export default function About() {
               alt="Education icon"
               header="NTU SCTP (Software Engineering)"
               isCurrent={true}
-              line1=""
+              line1=" "
               line2="Nov 2023 - May 2024"
               skills={SCTPSkills}
             />
@@ -95,12 +95,14 @@ export default function About() {
             </p>
           </div>
         </div>
+        <a href='#projects'>
         <img
           src={stockLogo.arrowImg}
           alt="Arrow icon"
           className="icon arrow"
-          onclick="location.href='./#experience'"
         />
+
+        </a>
       </section>
     </div>
   );
