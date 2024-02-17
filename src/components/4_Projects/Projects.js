@@ -1,6 +1,7 @@
 import React from "react";
 import ProjectsCard from "./ProjectsCard";
 import parkWhereLogo from "../../assets/stock/parkWhereLogo.png";
+import carIconLogo from "../../assets/carIcon.jfif";
 import cardyBotLogo from "../../assets/stock/cardyBotLogo.png";
 import { stockLogo } from "../../assets/images";
 
@@ -13,12 +14,12 @@ export default function Projects() {
         <div className="experience-details-container">
           <div className="about-containers">
             <ProjectsCard
-              imgSrc={parkWhereLogo}
-              projectName="parkWhere"
+              imgSrc={carIconLogo}
+              projectName="parkNow"
               desc="A barebones application retrieves real-time API for 
             parking lots from data.gov, integrated with Google Maps"
-              githubSrc="https://github.com/kiblykat/ParkWhere"
-              demoSrc="https://parkwhere.netlify.app/"
+              githubSrc="https://github.com/kiblykat/parking-app-chakra"
+              demoSrc="https://parknow.netlify.app/"
             />
             <ProjectsCard
               imgSrc={cardyBotLogo}
