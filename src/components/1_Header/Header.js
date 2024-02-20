@@ -7,7 +7,9 @@ export default function Header() {
   return (
     <>
       <nav id="desktop-nav">
-        <div className="logo"></div>
+        <div className="logo">
+          <p>(work in progress 😅)</p>
+        </div>
         <div>
           <ul className="nav-links">
             <li>
