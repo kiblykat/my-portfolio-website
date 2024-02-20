@@ -16,8 +16,8 @@ export default function Projects() {
             <ProjectsCard
               imgSrc={carIconLogo}
               projectName="parkNow"
-              desc="A barebones application retrieves real-time API for 
-            parking lots from data.gov, integrated with Google Maps"
+              desc="An application bootstrapped with Chakra UI to display real-time data for 
+            parking lots retrieved from a data.gov publicly listed API, integrated with Google Maps"
               githubSrc="https://github.com/kiblykat/parking-app-chakra"
               demoSrc="https://parknow.netlify.app/"
             />
@@ -26,10 +26,10 @@ export default function Projects() {
               projectName="steamBot"
               githubSrc="https://github.com/kiblykat/steamBot"
               desc="A steam bot that automatically manages 
-            game currency within my backpack and auto-trades 
+            game currency within storage and auto-trades 
             with other steam users based on a pricelist pre-defined. The bot is
             configured to trade Counter-Strike cases, Steam Cards, Game 
-            Backgrounds and emoticons at designated prices."
+            Backgrounds and emoticons at designated prices"
               demoSrc="https://steamcommunity.com/id/CardyBot/"
             />
             {/* <ProjectsCard imgSrc="" projectName="" githubSrc="" demoSrc="" /> */}
