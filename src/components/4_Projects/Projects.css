@@ -1,5 +1,4 @@
 #projects {
-  display: flex;
   justify-content: center;
   gap: 5rem;
   height: 100vh;
@@ -7,7 +6,7 @@
 }
 
 @media screen and (max-width: 1500px) {
-  .about-containers {
+  .aboutContainers {
     display: grid;
     grid-template-columns: 350px 350px;
     align-items: center;
@@ -16,7 +15,7 @@
     margin: 2rem;
   }
 
-  .details-container {
+  .detailsContainer {
     /* need height to keep height of grid to remain same */
     height: 100%;
     padding: 1.5rem;

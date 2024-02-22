@@ -4,18 +4,18 @@
   position: relative;
 }
 
-.about-containers {
+.aboutContainers {
   gap: 2rem;
   margin: 2rem;
   display: flex;
 }
 
-.text-container {
+.textContainer {
   text-align: center;
   margin: 2rem 8rem;
 }
 
-.about-details-container {
+.aboutDetailsContainer {
   justify-content: center;
   flex-direction: column;
 }
@@ -24,22 +24,8 @@
   border-radius: 2rem;
 }
 
-.details-container {
-  padding: 1.5rem;
-  flex: 1;
-  background: white;
-  border-radius: 2rem;
-  border: rgb(53, 53, 53) 0.1rem solid;
-  border-color: rgb(163, 163, 163);
-  text-align: center;
-}
-
-.details-container > * {
-  margin: 10px 0px;
-}
-
-@media screen and (max-width: 1500px) {
-  .about-containers {
+@media screen and (min-width: 801px) and (max-width: 1500px) {
+  .aboutContainers {
     display: grid;
     grid-template-columns: 350px 350px;
     align-items: center;
@@ -52,7 +38,7 @@
     height: 100%;
   }
 
-  .details-container {
+  .detailsContainer {
     /* need height to keep height of grid to remain same */
     height: 100%;
     padding: 1.5rem;
@@ -63,14 +49,15 @@
     border-color: rgb(163, 163, 163);
     text-align: center;
   }
-  @media screen and (max-width: 800px) {
-    .about-containers {
-      display: grid;
-      grid-template-columns: 350px;
-      align-items: center;
-      justify-content: center;
-      gap: 2rem;
-      margin: 2rem;
-    }
+}
+
+@media screen and (max-width: 800px) {
+  .aboutContainers {
+    display: grid;
+    grid-template-columns: 350px;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin: 2rem;
   }
 }

@@ -4,19 +4,20 @@ import parkWhereLogo from "../../assets/stock/parkWhereLogo.png";
 import carIconLogo from "../../assets/carIcon.jfif";
 import cardyBotLogo from "../../assets/stock/cardyBotLogo.png";
 import { stockLogo } from "../../assets/images";
+import "./Projects.css";
 
 export default function Projects() {
   return (
     <div>
       <section id="projects">
-        <p className="section__text__p1">Browse My Recent</p>
+        <p className="section__text__p1">Browse My Past</p>
         <h1 className="title">Projects</h1>
         <div className="experience-details-container">
-          <div className="about-containers">
+          <div className="aboutContainers">
             <ProjectsCard
               imgSrc={carIconLogo}
               projectName="parkNow"
-              desc="An application bootstrapped with Chakra UI to display real-time data for 
+              desc="A React application bootstrapped with Chakra UI to display real-time data for 
             parking lots retrieved from a data.gov publicly listed API, integrated with Google Maps"
               githubSrc="https://github.com/kiblykat/parking-app-chakra"
               demoSrc="https://parknow.netlify.app/"

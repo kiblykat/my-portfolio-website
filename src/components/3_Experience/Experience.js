@@ -38,8 +38,8 @@ export default function Experience() {
     <section id="experience">
       <p className="section__text__p1"></p>
       <h1 className="title">Experience</h1>
-      <div className="about-details-container">
-        <div className="about-containers">
+      <div className="aboutDetailsContainer">
+        <div className="aboutContainers">
           <ExperienceCard
             src={stockLogo.edImg}
             alt="Education icon"
@@ -77,20 +77,15 @@ export default function Experience() {
             skills={contiSkills}
           />
         </div>
-        <div className="text-container">
+        <div className="textContainer">
           <p>
             Having a background in Mechanical Engineering, my passion lies in
-            creating practical solutions to real world problems. As a
-            self-directed learner, I am actively looking for avenues to improve
-            myself in terms of hard skills needed within the software
-            development industry.
+            creating practical solutions to real world problems.
             <br />
             <br />
             <hr />
-            <br />I enjoy creating genuine connections with people, regardless
-            of age or background. I strongly feel there is always something you
-            can learn from someone else as no two life experiences are
-            identical.
+            <br />I am actively looking for avenues to improve myself in terms
+            of hard skills needed within the software development industry. 😁
           </p>
         </div>
       </div>

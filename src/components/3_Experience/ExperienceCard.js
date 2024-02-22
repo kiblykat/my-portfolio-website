@@ -1,6 +1,6 @@
 import React from "react";
 import { stockLogo } from "../../assets/images";
-import styles from "./ExperienceCard.module.css";
+import "./ExperienceCard.css";
 import OutputSkills from "./ExperienceOutputSkills";
 
 export default function ExperienceCard({
@@ -13,16 +13,12 @@ export default function ExperienceCard({
   skills,
 }) {
   return (
-    <div className="details-container">
+    <div className="detailsContainer">
       <img src={src} alt={alt} className="icon" />
-      <h3 className={styles.textLoadingContainer}>
+      <h3 className="textLoadingContainer">
         {header}
         {isCurrent ? (
-          <img
-            className={styles.loading}
-            src={stockLogo.blackDot}
-            alt="ongoing"
-          />
+          <img className="loading" src={stockLogo.blackDot} alt="ongoing" />
         ) : null}
       </h3>
       <p>

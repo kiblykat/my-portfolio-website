@@ -1,9 +1,9 @@
 import React from "react";
 import MyImage from "../../assets/me-crop.jpg";
 import Resume from "../../assets/resume/IzzatResume200224.pdf";
-import "./Profile.css";
 import { stockLogo } from "../../assets/images";
 import contiLogo from "../../assets/stock/contiLogo.png";
+import "./Profile.css";
 
 export default function Profile() {
   return (
@@ -35,8 +35,8 @@ export default function Profile() {
           </p>
           <div className="btn-container">
             <button
-              onClick={() => window.open(Resume, "_blank")}
-              className="btn btn-color-2"
+              class="gb gb-bordered hover-slide hover-fill gb-rounded"
+              id="gb7"
             >
               Download CV
             </button>
