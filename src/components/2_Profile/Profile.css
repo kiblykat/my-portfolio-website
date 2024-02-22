@@ -96,8 +96,6 @@
 
 /* Responsive Css Coding Created By Shift Media Solutions| SMS */
 .gb {
-  padding: 8px 20px;
-  margin-right: 25px;
   cursor: pointer;
   font-size: 18px;
   border-radius: 4px;
@@ -434,3 +432,12 @@
   );
 }
 /* Responsive Css Coding Created By Shift Media Solutions| SMS */
+
+.rotate-y {
+  /* Other styles */
+  transition: transform 1s ease; /* Add a transition for smooth animation */
+}
+
+.rotate-y:hover {
+  transform: rotateY(360deg); /* Rotate the element around the y-axis */
+}

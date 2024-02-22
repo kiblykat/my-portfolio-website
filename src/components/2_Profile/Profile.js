@@ -55,9 +55,9 @@ export default function Profile() {
               rel="noreferrer"
             >
               <img
+                className="icon rotate-y"
                 src={stockLogo.LinkedIn}
                 alt="My LinkedIn profile"
-                className="icon"
               />
             </a>
             <a
@@ -68,7 +68,7 @@ export default function Profile() {
               <img
                 src={stockLogo.Github}
                 alt="My Github profile"
-                className="icon"
+                className="icon rotate-y"
               />
             </a>
           </div>
