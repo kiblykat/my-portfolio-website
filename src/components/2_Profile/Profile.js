@@ -36,7 +36,8 @@ export default function Profile() {
           <div className="btn-container">
             <button
               onClick={() => window.open(Resume, "_blank")}
-              className="btn btn-color-2"
+              className="gb gb-bordered hover-slide hover-fill gb-rounded"
+              id="gb7"
             >
               Download CV
             </button>
