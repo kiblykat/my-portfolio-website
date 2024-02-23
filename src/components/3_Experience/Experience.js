@@ -80,17 +80,12 @@ export default function Experience() {
         <div className="text-container">
           <p>
             Having a background in Mechanical Engineering, my passion lies in
-            creating practical solutions to real world problems. As a
-            self-directed learner, I am actively looking for avenues to improve
-            myself in terms of hard skills needed within the software
-            development industry.
+            creating practical solutions to real world problems.
             <br />
             <br />
             <hr />
-            <br />I enjoy creating genuine connections with people, regardless
-            of age or background. I strongly feel there is always something you
-            can learn from someone else as no two life experiences are
-            identical.
+            <br />I am actively looking for avenues to improve myself in terms
+            of hard skills needed within the software development industry. 😁
           </p>
         </div>
       </div>
