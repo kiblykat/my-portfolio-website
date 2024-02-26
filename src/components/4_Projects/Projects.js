@@ -3,7 +3,8 @@ import ProjectsCard from "./ProjectsCard";
 import parkWhereLogo from "../../assets/stock/parkWhereLogo.png";
 import carIconLogo from "../../assets/carIcon.jfif";
 import cardyBotLogo from "../../assets/stock/cardyBotLogo.png";
-import ScrappyBot from "../../assets/ScrappyBot.jpg";
+import ScrappyBotty from "../../assets/ScrappyBot.jpg";
+import ScrappyBot from "../../assets/ScrappyBot_OrthoView.png";
 
 import { stockLogo } from "../../assets/images";
 
@@ -27,7 +28,7 @@ export default function Projects() {
               imgSrc={cardyBotLogo}
               projectName="steamBot"
               githubSrc="https://github.com/kiblykat/steamBot"
-              desc="(2023)A steam bot that automatically manages 
+              desc="(2023) A steam bot that automatically manages 
             game currency and auto-trades with other users based 
             on a pricelist pre-defined. The bot is configured to 
             trade different game items at designated prices"
@@ -35,12 +36,12 @@ export default function Projects() {
             />
             <ProjectsCard
               imgSrc={ScrappyBot}
-              projectName="MA4012 ScrappyBot"
+              projectName="ScrappyBot"
               githubSrc="https://github.com/kiblykat/MA4012-competition"
-              desc="(2022) A physical robot built from scratch for our MA4012 module, where I was assigned 
-              lead software developer. The bot is multithreaded, being able to detect boundaries of 
+              desc="(2022) A physical robot built from scratch for our MA4012 module competition, where I was assigned 
+              lead software developer. The logic developed is multi-threaded, being able to detect boundaries of 
               play area, avoid opponents, collect tennis balls and finally deliver them to the collection point"
-              demoSrc="https://steamcommunity.com/id/CardyBot/"
+              demoSrc="https://youtu.be/dkav24JsHlE"
             />
             {/* <ProjectsCard imgSrc="" projectName="" githubSrc="" demoSrc="" /> */}
           </div>
