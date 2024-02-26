@@ -3,6 +3,8 @@ import ProjectsCard from "./ProjectsCard";
 import parkWhereLogo from "../../assets/stock/parkWhereLogo.png";
 import carIconLogo from "../../assets/carIcon.jfif";
 import cardyBotLogo from "../../assets/stock/cardyBotLogo.png";
+import ScrappyBot from "../../assets/ScrappyBot.jpg";
+
 import { stockLogo } from "../../assets/images";
 
 export default function Projects() {
@@ -16,7 +18,7 @@ export default function Projects() {
             <ProjectsCard
               imgSrc={carIconLogo}
               projectName="parkNow"
-              desc="An application bootstrapped with Chakra UI to display real-time data for 
+              desc="(2024) An application bootstrapped with Chakra UI to display real-time data for 
             parking lots retrieved from a data.gov publicly listed API, integrated with Google Maps"
               githubSrc="https://github.com/kiblykat/parking-app-chakra"
               demoSrc="https://parknow.netlify.app/"
@@ -25,11 +27,19 @@ export default function Projects() {
               imgSrc={cardyBotLogo}
               projectName="steamBot"
               githubSrc="https://github.com/kiblykat/steamBot"
-              desc="A steam bot that automatically manages 
-            game currency within storage and auto-trades 
-            with other steam users based on a pricelist pre-defined. The bot is
-            configured to trade Counter-Strike cases, Steam Cards, Game 
-            Backgrounds and emoticons at designated prices"
+              desc="(2023)A steam bot that automatically manages 
+            game currency and auto-trades with other users based 
+            on a pricelist pre-defined. The bot is configured to 
+            trade different game items at designated prices"
+              demoSrc="https://steamcommunity.com/id/CardyBot/"
+            />
+            <ProjectsCard
+              imgSrc={ScrappyBot}
+              projectName="MA4012 ScrappyBot"
+              githubSrc="https://github.com/kiblykat/MA4012-competition"
+              desc="(2022) A physical robot built from scratch for our MA4012 module, where I was assigned 
+              lead software developer. The bot is multithreaded, being able to detect boundaries of 
+              play area, avoid opponents, collect tennis balls and finally deliver them to the collection point"
               demoSrc="https://steamcommunity.com/id/CardyBot/"
             />
             {/* <ProjectsCard imgSrc="" projectName="" githubSrc="" demoSrc="" /> */}
