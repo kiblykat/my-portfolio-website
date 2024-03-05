@@ -20,7 +20,8 @@ export default function Projects() {
               imgSrc={carIconLogo}
               projectName="parkNow"
               desc="(2024) An application bootstrapped with Chakra UI to display real-time data for 
-            parking lots retrieved from a data.gov publicly listed API, integrated with Google Maps"
+            parking lots retrieved from a data.gov publicly listed API, integrated with Google Maps. 
+            Data persistence achieved through a mock API"
               githubSrc="https://github.com/kiblykat/parking-app-chakra"
               demoSrc="https://parknow.netlify.app/"
             />
