@@ -14,7 +14,6 @@ export default function Profile() {
           <img className="profile-pic" src={MyImage} alt="Izzat dp" />
         </div>
         <div className="section__text">
-          <p className="section__text__p1">Hi, I'm</p>
           <h1 className="title">Izzat Fadzlon</h1>
           <p className="section__text__p2">
             Software Developer
@@ -42,12 +41,6 @@ export default function Profile() {
             >
               Download CV
             </button>
-            {/* <button
-            className="btn btn-color-1"
-            onClick="location.href='./#contact'"
-          >
-            Contact Info
-          </button> */}
           </div>
           <div id="socials-container">
             <a

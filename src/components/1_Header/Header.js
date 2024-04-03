@@ -8,7 +8,7 @@ export default function Header() {
     <>
       <nav id="desktop-nav">
         <div className="logo">
-          <p>(work in progress 😅)</p>
+          <p style={{ color: "black" }}>Izzat Fadzlon</p>
         </div>
         <div>
           <ul className="nav-links">
@@ -17,9 +17,6 @@ export default function Header() {
             </li>
             <li>
               <a href="#projects">Projects</a>
-            </li>
-            <li>
-              <a href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -44,9 +41,6 @@ export default function Header() {
                 </li>
                 <li>
                   <a href="#projects">Projects</a>
-                </li>
-                <li>
-                  <a href="#contact">Contact</a>
                 </li>
               </ul>
             </div>
