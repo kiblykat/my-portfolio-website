@@ -1,7 +1,7 @@
 import React from "react";
 import MyImage from "../../assets/me-crop.jpg";
 // import Resume from "../../assets/resume/IzzatResume200224.pdf";
-import Resume from "../../assets/resume/IzzatResume050324.pdf";
+import Resume from "../../assets/resume/18-5-24-resume.pdf";
 import "./Profile.css";
 import { stockLogo } from "../../assets/images";
 import contiLogo from "../../assets/stock/contiLogo.png";
